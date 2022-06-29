@@ -11,10 +11,10 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg bg-black navbar-dark">
+	<nav id="nav" class="navbar navbar-expand-lg bg-black navbar-dark">
 		<div class="conteiner">
 			<div class="collapse navbar-collapse">
-			<a class="navbar-brand" href="#"> <img src="img/binance.png" alt="Foto Do Meu Site" width="100" heigth="75"> </a>
+			<a class="navbar-brand" href="#"> <img src="img/binance.png" alt="Foto Do Meu Site" width="100" heigth="75"> <b>Binance</b></a>
 				<div class="navbar-nav">
 				<a class="nav-link" href="#"> Inicio </a>
 				<a class="nav-link" href="servico.html"> Serviço </a>
@@ -34,22 +34,22 @@
 			<div class="carousel-item active">
 				<img src="img/img1.jpg" class="d-block w-100">
 				<div class="carousel-caption d-one d-md-block">
-					<h6>Primeiro slide</h6>
-					<p> Apenas uma descrição para a imagem</p>
+					<h6>Graficos do mercado</h6>
+					<p></p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="img/img2.jpg" class="d-block w-100">
 				<div class="carousel-caption d-one d-mc-block">
-					<h6> Segundo Slide</h6>
-					<p> Apenas uma descrição para a imagem</p>
+					<h6> Tecnolocia inovadora</h6>
+					<p></p>
 				</div>
 			</div>
 			<div class="carousel-item">
 				<img src="img/img3.webp" class="d-block w-100">
 				<div class="carousel-caption d-one d-md-block">
-					<h6> Terceira Slide</h6>
-					<p> Apenas uma descrição para a imagem</p>
+					<h6> Inteligência artificial</h6>
+					<p></p>
 				</div>
 			</div>
 		</div>
@@ -63,57 +63,130 @@
 		</button>
 	</div>
 		
-		<section id="cards">
+	<section id="cards">
 		<div class="container">
 			<div class="row">
-			<div class="col-3">
-					<div class="card text-center">
-						<img src="img/bitcoin.png" class="card-img-top" class="card-img-top rounded-circle" style="background-color: white;">
+				<div class="col-12">
+					<h3 class="display-6 text-center">Criptmoedas</h3> <br/>
+				</div>
+				<div class="col-3">
+					<div class="card text-center editar-card efeito-card">
+						<img id="img-1" src="img/bitcoin.png" class="card-img-top rounded-circle efeito-img">
 						<div class="card-body">
 							<h5 class="card-tittle"> Bitcoin</h5>
 							<p class="card-text"> Moeda Digital </p>
-							<a href="https://www.binance.com/pt-BR" class="btn btn-primary">Compre aqui!</a>
-						</div>
-					</div>
-				</div>
-				
-			<div class="col-3">
-					<div class="card text-center">
-						<img src="img/ethereum.png" class="card-img-top" class="card-img-top rounded-circle" style="background-color: white;">
-						<div class="card-body">
-							<h5 class="card-tittle"> Ethereum</h5>
-							<p class="card-text"> Moeda Digital </p>
-							<a href="https://www.binance.com/pt-BR" class="btn btn-primary">Compre aqui!</a>
-						</div>
-					</div>
-				</div>
-				
-			<div class="col-3">
-					<div class="card text-center">
-						<img src="img/ripple.png" class="card-img-top" class="card-img-top rounded-circle" style="background-color: white;">
-						<div class="card-body">
-							<h5 class="card-tittle"> Ripple</h5>
-							<p class="card-text"> Moeda Digital </p>
-							<a href="https://www.binance.com/pt-BR" class="btn btn-primary">Compre aqui!</a>
+							<a href="https://www.binance.com/pt-BR/trade/BTC_BUSD?theme=dark&type=spot" class="btn btn-primary">Compre aqui!</a>
 						</div>
 					</div>
 				</div>
 				
 				<div class="col-3">
-					<div class="card text-center">
-						<img src="img/cardano.png" class="card-img-top" class="card-img-top rounded-circle" style="background-color: white;">
+					<div class="card text-center editar-card efeito-card">
+						<img id="img-2" src="img/ethereum.png" class="card-img-top rounded-circle efeito-img">
+						<div class="card-body">
+							<h5 class="card-tittle"> Ethereum</h5>
+							<p class="card-text"> Moeda Digital </p>
+							<a href="https://www.binance.com/pt-BR/trade/BTC_BUSD?theme=dark&type=spot" class="btn btn-primary">Compre aqui!</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-3">
+					<div class="card text-center editar-card efeito-card">
+						<img id="img-3" src="img/ripple.png" class="card-img-top rounded-circle efeito-img">
+						<div class="card-body">
+							<h5 class="card-tittle"> Ripple</h5>
+							<p class="card-text"> Moeda Digital </p>
+							<a href="https://www.binance.com/pt-BR/trade/BTC_BUSD?theme=dark&type=spot" class="btn btn-primary">Compre aqui!</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-3">
+					<div class="card text-center editar-card efeito-card">
+						<img id="img-4" src="img/cardano.png" class="card-img-top rounded-circle efeito-img">
 						<div class="card-body">
 							<h5 class="card-tittle"> Cardano</h5>
 							<p class="card-text"> Moeda Digital </p>
-							<a href="https://www.binance.com/pt-BR" class="btn btn-primary">Compre aqui!</a>
+							<a href="https://www.binance.com/pt-BR/trade/BTC_BUSD?theme=dark&type=spot" class="btn btn-primary">Compre aqui!</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	
+		<section id="imagens">
+			<div class="container">
+				<div class="row">
+					<div class="col-7 align-self-center">
+						<h1 class="display-6 margem-superior">O <b>Bitcoin</b> surgiu em 31 de outubro de 2008. Naquele dia, o criador (ou criadores) da criptomoeda, que se esconde sob o pseudônimo de <b>Satoshi Nakamoto</b>, enviou um e-mail para uma lista de pessoas interessadas em criptografia.
+						<span class="text-muted"></span>
+						</h1>
+						<p class="lead"></p>
+					</div>
+					<div class="col-5">
+						<img src="img/img btn.jpg" alt="uma imagem" style="max-height: 500px;"> 
+					</div>
+				</div>
+				<hr class="h">
+				</hr>
+			
+			<div class="row">
+			<div class="col-5">
+				<img src="img/img trader.jpg" alt="uma imagem" style="max-height: 500px; max-width: 500px;"> 
+			</div>
+			<div class="col-7">
+				<h1 class="display-6 margem-superior"><b>Faça trader da onde estiver. Em qualquer lugar, a qualquer hora.</b>
+				<span class="text-muted">Saiba tudo sobre o nosso aplicativo e o cliente para desktop.</span>
+				</h1>
+				<h3 class="lead"><br/>Sua corretora cripto confiável</h>
+			</div>
+					
+					
+			</div>
+			</div>
+				<div>
+				
+				</div>
+				
+				
+				
+	</section>
+	
+	
+	<section id="section">
+		<div class="container">
+		<div class="row">
+			<div class="col-12 text-center" >
+			<h2> <b>Comece a ganhar hoje mesmo</b></h2>
+				<a href="https://accounts.binance.com/pt-BR/register" class="btn btn-warning">Inscreva-se Agora</a>
+			</div>
+		</div>
+		</div>
 
-
+	</section>
+	
+		<footer id="rodape">
+			<div class="container">
+				<div class="row">
+					<div class="col-4">
+						<img src="img/binance.png" class="imgrodape">
+					</div>
+					<div class="col-4 text-center">
+						<ul class="nav justify-content-center">
+							<li class="nav-item"> </li>
+						</ul>
+					</div>
+					<div class="col-4 text-end">
+						<img src="img/instagram.png">
+						<img src="img/whatsapp.png">
+						<img src="img/facebook.png">
+					</div>
+				</div>
+			</div>
+		</footer>
+	
 
 <script type="text/javascript" src="res/bootstrap/js/bootstrap.min.js"> </script>
 </body>
