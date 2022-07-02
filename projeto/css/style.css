@@ -169,3 +169,98 @@ body
 {
 	margin-bottom: 20px;
 }
+.contato
+{
+	margin-top: 40px;
+}
+.contato2
+{
+	margin-bottom: 50px;
+}
+#texto
+{
+	margin-top: 200px;
+	margin-left: 310px;
+}
+.login1
+{
+	margin-top: 20px;
+	margin-left: 310px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.login2
+{
+	margin-left: 310px;
+	padding-left: 68px;
+	padding-right: 68px;
+}
+.login3
+{
+	margin-top: 20px;
+	margin-left: 310px;
+	margin-bottom: 20px;
+	padding-left: 63px;
+	padding-right: 63px;
+}
+.paragrafo
+{
+	padding-left: 310px;
+}
+.link
+{
+	text-decoration: none;
+	color:#C99400;
+}
+.link2
+{
+	text-decoration: none;
+	color:#C99400;
+	padding-left: 310px;
+}
+
+.imgcol6
+{
+	margin-top: 110px;
+	margin-left: 110px;
+	height: 300px;	
+}
+.txt1
+{
+	margin-left: 70px;
+}
+.txt2
+{
+	margin-left: 70px;
+}
+.txtcadastro
+{
+	margin-top: 110px;
+}
+.botaocadastro
+{
+	margin-top: 15px;
+}
+.botaocadastro2
+{
+	margin-top: 15px;
+	margin-left: 25px;
+}
+.emailcorporativo
+{
+	margin-top: 20px;
+}
+.senha
+{
+	margin-top: 20px;	
+}
+.titulocard
+{
+	text-decoration: none;
+	color: #000;
+}
+.titulocard:hover
+{
+	color:#000;
+}
