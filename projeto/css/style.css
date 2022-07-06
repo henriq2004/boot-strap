@@ -264,7 +264,78 @@ body
 {
 	color:#000;
 }
-.rodape
+#rodape
 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.search-box
+{
+	position: absolute;
+	top: 30%;
+	left: 71%;
+	transform: translate(-100%);
 	
+	background: #fff;
+	height: 50px;
+	padding: 10px;
+	border-radius: 40px;
+	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+::-webkit-input-placeholder
+{
+	font-size: 17px;
+	font-family: -apple-system, BlinkMacSystemFont, 'segoe UI', Roboto, Oxygen, Ubuntu, cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	color: #838F8E;
+}
+.search-text
+{
+	background: none;
+	border: 0;
+	outline: 0;
+	
+	padding: 0;
+	
+	font-size: 16px;
+	
+	transition: 0.4s;
+	
+	width: 0px;
+}
+.search-btn
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loupe-white
+{
+	display: none;
+}
+.search-box:hover > .search-text
+{
+	width: 320px;	
+}
+.search-box:hover > .search-btn
+{
+	background: #;
+}
+.search-box:hover > .search-btn .loupe-blue
+{
+	display: block: none;
+}
+.search-box:hover > .search-btn .loupe-white
+{
+	display: block;
+}
+.ptbr
+{
+	margin-left: 500px;
 }
