@@ -12,6 +12,7 @@
 </head>
 <body id="fundo">
 
+	<!-- Navbar serve para colocar um cabeçalho no site !-->
 	<nav id="nav" class="navbar navbar-expand-lg bg-black navbar-dark">
 		<div class="container">
 			<div class="collapse navbar-collapse">
@@ -26,7 +27,8 @@
 			</div>
 		</div>
 	</nav>
-
+	
+	<!-- section q armazena o formulario !-->
 	<section id="fale-conosco" style="color: white" >
 		<div class="container">
 		<div class="row">
@@ -36,9 +38,13 @@
 		</div>
 		<div class="row">
 		<div class="col-12">
-	<form>
+		
+		<!-- formulario para envio dos campos !-->
+		<form>
+			<!-- label é legenda !-->
 			<label for="nome-completo" class="form-label" style="color: white"> Digite o seu nome: </label>
 				<p class="form-text" style="color: white"> Digite seu nome completo neste campo </p>
+			<!-- input é campo q recebe dados !-->
 			<input type="text" class="form-control" id="nome-completo" placeholder="Nome" required>
 			<br/>
 			<label for="email" class="form-label" style="color: white"> Digite o seu email: </label>
@@ -48,6 +54,7 @@
 			<input type="text" class="form-control" id="inputFone" placeholder="Ex.: (DDD) 9 + Numero  " required>
 			<br/>
 			<label for="estado" class="form-label"> Digite o seu estado </label>
+			<!-- select é um input de seleção, onde é possivel selecionar uma das opções !-->
 			<select name="estado" class="form-select" id="estado" placeholder="Digite o seu estado"required>
 				<option value=""> </option>
 				<option value="Alagoas"> Alagoas </option>
@@ -64,7 +71,9 @@
 				<option value="Santa Catarina"> Santa Catarina </option>
 				<option value="Santa Catarina"> Santa Catarina </option>
 			</select>
+			
 			<br/>
+			
 			<label for="cidade" class="form-label"> Selecione a sua cidade </label>
 			<select name="cidade" class="form-select" id="city" placeholder="Selecione sua cidade"required>
 				<option value=""> </option>
@@ -84,7 +93,8 @@
 				<option value="Joinville"> Joinville </option>
 			</select>
 			<br/>
-				<label for="motivo-contato" class="form-label"> Motivo Do Contato </label>
+			
+			<label for="motivo-contato" class="form-label"> Motivo Do Contato </label>
 			<select class="form-select" id="motivo-contato" placeholder="Motivo Do Contato">
 				<option> </option>
 				<option> Compra Duplicada Na Fatura</option>
@@ -93,17 +103,20 @@
 				<option> A Embalagem Veio Aberta </option>
 			</select>
 			<br/>
-				<label for="caixa-texto" class="form-label"> Digite Sua Mensagem </label>
-				<textarea class="form-control" id="caixaTexto" rows="3" placeholder="Digite Sua Mensagem"></textarea>
-				<br/>
-				<button type="submit" class="btn btn-primary btn-lg-dark contato2" onclick="validarFormulario()"> Enviar </button>
+			
+			<label for="caixa-texto" class="form-label"> Digite Sua Mensagem </label>
+			<!-- textarea é um input para receber um texto grand!-->
+			<textarea class="form-control" id="caixaTexto" rows="3" placeholder="Digite Sua Mensagem"></textarea>
+			<br/>
+			<button type="submit" class="btn btn-primary btn-lg-dark contato2" onclick="validarFormulario()"> Enviar </button>
 				
-	</form>
+		</form>
 		</div>
 		</div>
 		</div>
 	</section>
 	
+		<!-- tag footer, serve para colocar o rodape !-->
 		<footer id="rodape">
 			<div class="container">
 				<div class="row">
@@ -127,9 +140,7 @@
 					</div>
 				</div>
 			</div>
-			
 		</footer>
-
 
 </body>
 </html>
